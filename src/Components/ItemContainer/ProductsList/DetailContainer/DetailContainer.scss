@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.detailContainer {
+    background-image: url('../../../../Assets/fondo.jpg');
+    background-size: 100vw auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .prodContainer {
+        margin: 10px;
+        background-color: white;
+        width: 90vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+        justify-items: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 0px #333 inset;
+    }
+
+    .info {
+        padding: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2.8rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        h3 {
+            margin-left: 30px;
+            font-size: 1.5rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            margin-left: 30px;
+            font-size: 1.5rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .image {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        img {
+            padding: 5px 5px 5px 5px;
+            overflow: hidden;
+            width: 60%;
+        }
+
+    }
+}
+
+.icono {
+    width: 50px;
+}
+
+.itemCount {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .cantidad {
+        button {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 30px;
+            padding-left: 30px;
+            border-radius: 8px;
+            margin: 10px;
+            color: white;
+            font-size: 2rem;
+        }
+        .c1{
+            background-color: rgb(20, 75, 214);
+        }
+        .c2{
+            background-color: #ff0000;
+        }
+    }
+}
+
+.sesion{
+    text-decoration: none;
+}
+
+.btnSesion{
+    background-color: blue;
+    text-decoration: none;
+}
+
+.fifth {
+    font-size: 2rem;
+    margin: 20px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    background-color: blue;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+}
+
+.fifth:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #ff0000;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+}
+
+.fifth:hover {
+    color: #fff;
+}
+
+.fifth:hover:after {
+    width: 110%;
+}
+

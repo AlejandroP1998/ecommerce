@@ -1,0 +1,76 @@
+.productsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    background-image: url('../../../Assets/fondo.jpg');
+    background-size: 100vw auto;
+
+    .prod {
+        list-style-type: none;
+        text-decoration: none;
+        box-shadow: 0px 0px 10px 0px #333 inset;
+        width: 310px;
+        height: 600px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+
+        background-color: white;
+        color: black;
+
+        padding-bottom: 20px;
+
+        h2 {
+            color: white;
+            height: 70px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-size: 2rem;
+            text-align: center;
+            background-color: #00092C;
+        }
+
+        h3 {
+            font-size: 1.7rem;
+            margin: 10px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.5rem;
+            line-height: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        h4 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 1.6rem;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+            background-color: red;
+        }
+
+        h5 {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        img {
+            padding: 5px 5px 5px 5px;
+            overflow: hidden;
+        }
+    }
+
+    .prod:hover {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        box-shadow: 0px 0px 10px 0px rgb(0, 76, 255) inset;
+    }
+}

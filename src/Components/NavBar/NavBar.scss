@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.infoNav {
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+    .logo {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .logo:hover {
+        animation: bounce;
+        /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1.5s;
+        /* don't forget to set a duration! */
+    }
+
+    .icons {
+        font-size: 10vw;
+        color: red;
+    }
+
+    .icons:hover {
+        color: yellow;
+    }
+}
+
+.navContainer {
+    /* position: sticky; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    align-items: center;
+    background-color: red;
+
+    .navLinks {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: red;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .navLinks:hover {
+        background-color: #00092C;
+    }
+}

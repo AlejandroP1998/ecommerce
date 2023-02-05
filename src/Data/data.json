@@ -1,0 +1,263 @@
+[
+ {
+  "name": "Bajo electrico M1 CS",
+  "price": 900,
+  "description": "Bajo electrico de 5 cuerdas color lightGold",
+  "category": "guitar",
+  "imageUrl": "https:\/\/losinstrumentos.com.gt\/image\/cache\/catalog\/Bajos\/BH-EBS625-1-1200x1200.jpg",
+  "stock": 4,
+  "oferta": "false"
+ },
+ {
+  "name": "Bajo electrico M2 CA",
+  "price": 760,
+  "description": "Bajo electrico de 4 cuerdas color BlackNoirr",
+  "category": "guitar",
+  "imageUrl": "https:\/\/www.shopper.com.gt\/wp-content\/uploads\/2020\/10\/sr405eqm-skg.webp",
+  "stock": 7,
+  "oferta": "true"
+ },
+ {
+  "name": "Guitarra acústica",
+  "price": 375,
+  "description": "Guitarra acustica valenciana color BlackGrey",
+  "category": "guitar",
+  "imageUrl": "https:\/\/losinstrumentos.com.gt\/image\/cache\/catalog\/Guitarras\/GV-AF227A-BK-1-1200x1200.jpg",
+  "stock": 30,
+  "oferta": "true"
+ },
+ {
+  "name": "Guitarra eléctroacústica",
+  "price": 485,
+  "description": "Guitarra electro acustica EPIPHONE natural + Case",
+  "category": "guitar",
+  "imageUrl": "https:\/\/i0.wp.com\/tiendasts.com.gt\/wp-content\/uploads\/2020\/04\/aj210ce.jpg?fit=800%2C800&ssl=1",
+  "stock": 24,
+  "oferta": "false"
+ },
+ {
+  "name": "Guitarra eléctrica",
+  "price": 716,
+  "description": "Guitarra electrica color RED-WHITE",
+  "category": "guitar",
+  "imageUrl": "https:\/\/www.casainstrumental.com\/wp-content\/uploads\/2021\/01\/371001540.jpg",
+  "stock": 56,
+  "oferta": "false"
+ },
+ {
+  "name": "Requinto",
+  "price": 400,
+  "description": "Requinto electroacústico valenciana marrón",
+  "category": "guitar",
+  "imageUrl": "https:\/\/losinstrumentos.com.gt\/image\/cache\/catalog\/Guitarras\/GV-ACG101GY-1-1200x1200.jpg",
+  "stock": 11,
+  "oferta": "true"
+ },
+ {
+  "name": "Piano digital",
+  "price": 1030,
+  "description": "Piano digital recital color Black",
+  "category": "piano",
+  "imageUrl": "https:\/\/cdn.kemik.gt\/2022\/12\/103083141001-Alesis-1200x1200-1.-700x700.jpg",
+  "stock": 6,
+  "oferta": "true"
+ },
+ {
+  "name": "Teclado interactivo",
+  "price": 1115,
+  "description": "Teclado interactivo con mas de 1500 interacciones",
+  "category": "piano",
+  "imageUrl": "https:\/\/www.musicado.es\/1562-large_default\/teclado-interactivo-korg-pa600.jpg",
+  "stock": 20,
+  "oferta": "false"
+ },
+ {
+  "name": "Piano clásico",
+  "price": 2360,
+  "description": "Piano clasico con diseño artesanal",
+  "category": "piano",
+  "imageUrl": "https:\/\/p.turbosquid.com\/ts-thumb\/d6\/4EEeAH\/Zk5WXnCI\/piano_classic01\/jpg\/1550481448\/1500x1500\/fit_q99\/2a172245baf6c723c3fe2b31f3a50f8fba222328\/piano_classic01.jpg",
+  "stock": 3,
+  "oferta": "false"
+ },
+ {
+  "name": "Bateria M1 CS",
+  "price": 3476,
+  "description": "Bateria acustica de 5 piezas color Black",
+  "category": "drum",
+  "imageUrl": "https:\/\/i0.wp.com\/tiendasts.com.gt\/wp-content\/uploads\/2020\/04\/RBC1601ABK.jpg?fit=770%2C747&ssl=1",
+  "stock": 7,
+  "oferta": "false"
+ },
+ {
+  "name": "Bateria M1 CB",
+  "price": 3285,
+  "description": "Bateria acustica de 5 piezas color Gold",
+  "category": "drum",
+  "imageUrl": "https:\/\/www.superbocinas.com.gt\/images\/stories\/virtuemart\/product\/www.superbocinas.com.gt-1-METALLIC-BRONZE-03-Discovery.jpg",
+  "stock": 13,
+  "oferta": "false"
+ },
+ {
+  "name": "Bateria M3 CDX",
+  "price": 4325,
+  "description": "Bateria acustica de 3 piezas color METAL-PINK para niño",
+  "category": "drum",
+  "imageUrl": "https:\/\/www.superbocinas.com.gt\/images\/stories\/virtuemart\/product\/www.superbocinas.com.gt-1-PK-001-Discovery.jpg",
+  "stock": 16,
+  "oferta": "true"
+ },
+ {
+  "name": "Congas",
+  "price": 600,
+  "description": "Conjunto de 2 Congas color LIGHT-WOOD",
+  "category": "percusion",
+  "imageUrl": "https:\/\/www.casainstrumental.com\/wp-content\/uploads\/2020\/04\/LPA646-AW-1-1.jpg",
+  "stock": 6,
+  "oferta": "true"
+ },
+ {
+  "name": "Pandero tradicional M1",
+  "price": 150,
+  "description": "Pandero tradicional de 9 pares de ferreñas",
+  "category": "percusion",
+  "imageUrl": "https:\/\/www.sanin.gal\/pandeireta-tradicional-de-9-pares-de-ferren~as_img9002n1t6.jpg",
+  "stock": 70,
+  "oferta": "false"
+ },
+ {
+  "name": "Pandero profesional",
+  "price": 240,
+  "description": "Pandero profesional Gold radiante con diseño",
+  "category": "percusion",
+  "imageUrl": "https:\/\/cdn.kemik.gt\/2019\/10\/Radiante-Gold-2-768x768.jpg",
+  "stock": 60,
+  "oferta": "false"
+ },
+ {
+  "name": "Djembe clásico",
+  "price": 500,
+  "description": "Djembe estilo clasico color natural wood 100%",
+  "category": "percusion",
+  "imageUrl": "https:\/\/www.gonher.com\/wp-content\/uploads\/GrupoGonher\/IPMEIJD12BW.jpg",
+  "stock": 5,
+  "oferta": "true"
+ },
+ {
+  "name": "Redoblante M3DBS",
+  "price": 130,
+  "description": "Redoblante color Black profesional",
+  "category": "drum",
+  "imageUrl": "https:\/\/www.domisolmusic.com\/wp-content\/uploads\/2014\/12\/69-b.jpg",
+  "stock": 49,
+  "oferta": "false"
+ },
+ {
+  "name": "Pandero tradicional M1 SSX",
+  "price": 180,
+  "description": "Pandero fondo black-off tradicional",
+  "category": "percusion",
+  "imageUrl": "https:\/\/www.casainstrumental.com\/wp-content\/uploads\/2020\/04\/LP3012-1-600x600.jpg",
+  "stock": 39,
+  "oferta": "false"
+ },
+ {
+  "name": "Djembe profesional",
+  "price": 800,
+  "description": "Djembe profesional color METALIC-RED",
+  "category": "percusion",
+  "imageUrl": "https:\/\/masmusika.com\/wp-content\/uploads\/img\/p\/I18909005-600x600.jpg",
+  "stock": 10,
+  "oferta": "false"
+ },
+ {
+  "name": "Congas MZ",
+  "price": 1200,
+  "description": "Congas modelo MZ profesionales",
+  "category": "percusion",
+  "imageUrl": "https:\/\/m.media-amazon.com\/images\/I\/81SSypRgIyL._AC_SY606_.jpg",
+  "stock": 7,
+  "oferta": "false"
+ },
+ {
+  "name": "Redoblante M1S",
+  "price": 190,
+  "description": "Redoblante profesional color BLACK-GOLD",
+  "category": "drum",
+  "imageUrl": "https:\/\/casamusicalnunez.com\/wp-content\/uploads\/2021\/12\/PDP-REDOBLANTE-ERIC-HERNANDEZ-SIGNATURE-MAPLE-4X14-PDSN0414SSEH.jpg",
+  "stock": 37,
+  "oferta": "false"
+ },
+ {
+  "name": "Piano clásico BlackNoir",
+  "price": 4590,
+  "description": "Piano clasico diseño black-noir",
+  "category": "piano",
+  "imageUrl": "https:\/\/musical.com.gt\/wp-content\/uploads\/1-79.jpg",
+  "stock": 8,
+  "oferta": "true"
+ },
+ {
+  "name": "Organo profesional RTX",
+  "price": 2360,
+  "description": "Organo profesional RTX con todos los complementos incluidos",
+  "category": "piano",
+  "imageUrl": "https:\/\/i.ebayimg.com\/images\/g\/viQAAOSwpeNjizqw\/s-l500.jpg",
+  "stock": 5,
+  "oferta": "false"
+ },
+ {
+  "name": "Amplificador DBZ",
+  "price": 3000,
+  "description": "Sistema de amplificación profesional modelo DBZ",
+  "category": "stereo",
+  "imageUrl": "https:\/\/www.casainstrumental.com\/wp-content\/uploads\/2020\/04\/MARSH1-1.jpg",
+  "stock": 12,
+  "oferta": "true"
+ },
+ {
+  "name": "Amplificador YMX",
+  "price": 3123,
+  "description": "Sistema de amplificación profesional modelo YMX",
+  "category": "stereo",
+  "imageUrl": "https:\/\/www.casainstrumental.com\/wp-content\/uploads\/2020\/04\/2370100000-1-1.jpg",
+  "stock": 15,
+  "oferta": "false"
+ },
+ {
+  "name": "Amplificador LOOP",
+  "price": 3940,
+  "description": "Sistema de amplificación profesional modelo LOOP",
+  "category": "stereo",
+  "imageUrl": "https:\/\/www.domisolmusic.com\/wp-content\/uploads\/2017\/08\/02-a-10.jpg",
+  "stock": 16,
+  "oferta": "false"
+ },
+ {
+  "name": "Amplificador HRS",
+  "price": 3010,
+  "description": "Sistema de amplificación profesional modelo HRS",
+  "category": "stereo",
+  "imageUrl": "https:\/\/www.casainstrumental.com\/wp-content\/uploads\/2021\/12\/acoustic_singer_live_lt_main_gal.jpg",
+  "stock": 10,
+  "oferta": "true"
+ },
+ {
+  "name": "Amplificador VW",
+  "price": 3325,
+  "description": "Sistema de amplificación profesional modelo VW",
+  "category": "stereo",
+  "imageUrl": "https:\/\/manualguitarraelectrica.com\/wp-content\/uploads\/2021\/06\/Amplificador-Profesional-Vox-AC30.jpg",
+  "stock": 9,
+  "oferta": "true"
+ },
+ {
+  "name": "Amplificador UNX",
+  "price": 3010,
+  "description": "Sistema de amplificación profesional modelo UNX",
+  "category": "stereo",
+  "imageUrl": "https:\/\/http2.mlstatic.com\/D_NQ_NP_875013-MPE32059338206_092019-O.webp",
+  "stock": 13,
+  "oferta": "false"
+ }
+]

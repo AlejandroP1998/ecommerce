@@ -1,0 +1,146 @@
+.loginContainer {
+    background-image: url('../../Assets/fondo.jpg');
+    background-size: 100vw auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .block{
+        background-color: white;
+        color: black;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        h2{
+            width: 100%;
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        p{
+            width: 90%;
+            font-size: 1.3rem;
+            line-height: 50px;
+            text-align: center;
+        }
+    }
+
+    form {
+        box-shadow: 0px 0px 10px 0px #333 inset;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 60px;
+        background-color: white;
+        width: 80vw;
+        object-fit: cover;
+        object-position: bottom;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            object-fit: cover;
+            object-position: bottom;
+            width: 20%;
+        }
+
+        input {
+            object-fit: cover;
+            object-position: bottom;
+            width: 90%;
+            margin: 20px;
+            font-size: 2rem;
+            border-radius: 8px;
+        }
+
+        .registerbtn {
+            text-decoration: none;
+            color: blue;
+            font-size: 2rem;
+        }
+
+        .registerbtn:hover {
+            color: red;
+        }
+
+        .title {
+            background-color: black;
+            color: white;
+            font-size: 3rem;
+            width: 100%;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+        }
+
+        .fifth {
+            font-size: 2rem;
+            margin: 20px;
+            border-color: none;
+            border-radius: 8px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            -webkit-transition: color 150ms ease-in-out;
+            transition: color 150ms ease-in-out;
+        }
+
+        .fifth:after {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width: 0;
+            height: 100%;
+            background: #ff0000;
+            z-index: -1;
+            -webkit-transition: width 150ms ease-in-out;
+            transition: width 150ms ease-in-out;
+        }
+
+        .fifth:hover {
+            color: #fff;
+        }
+
+        .fifth:hover:after {
+            width: 110%;
+        }
+
+
+    }
+
+    .others {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        button {
+            margin: 50px;
+            font-size: 3rem;
+            border-color: none;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px 0px #333 inset;
+        }
+
+        button:hover {
+            -webkit-transform: scale(2);
+            transform: scale(2);
+        }
+    }
+}
