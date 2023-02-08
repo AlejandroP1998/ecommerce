@@ -1,12 +1,12 @@
 import { useCartContext } from "../../Contexts/CartContext";
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import './Cart.scss'
 import Swal from "sweetalert2";
-
+import { BsTrashFill } from 'react-icons/bs'
 
 const Cart = () => {
 
-    const { cart, emptyCart, totalCart } = useCartContext()
+    const { cart, emptyCart, totalCart, removerItem } = useCartContext()
 
 
     if (cart.length === 0) {
@@ -15,45 +15,54 @@ const Cart = () => {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops... no tienes elementos en el carrito',
-                timer: '3000',
+                timer: '2000',
                 showConfirmButton: false
             })
-        }, 2000)
+        }, 0)
 
         return <div className="bloque">
             <Navigate to='/' />
         </div>
     }
 
-    console.log('Carrito: '+typeof(cart));
-
-    const carrito = []
-
-    for(let i = 0; i<cart.length; i++){
-        carrito.push(cart[i][0])
-    }
+    const navegar = useNavigate();
 
     return (
         <div className="cartContainer">
             <div className="block">
+                <h1>Carrito de compras</h1>
                 {
-                    carrito.map((prod) => (
-                        <div key={prod.id}>
-                            <h2>Nombre: {prod.name}</h2>
-                            <p>{prod.description}</p>
-                            <p>Categoria: {prod.category}</p>
-                            <p>Precio: {prod.price}</p>
-                            {prod.oferta === 'true' && <p>Oferta</p>}
-                            <hr />
+                    cart.map((prod) => (
+                        <div className="sections" key={prod.id}>
+                            <div>
+                                <button onClick={() => removerItem(prod.id)}><BsTrashFill /></button>
+                            </div>
+                            <div className="info">
+                                <h2>{prod.name}</h2>
+                                <h3>{prod.description}</h3>
+                                {prod.oferta === 'true' && <p>Producto en oferta</p>}
+                                {prod.oferta === 'true' && <p>Adquiriras un cupon de descuento para vuestra proxima compra 😉</p>}
+                                <p>Precio: ${prod.price} USD</p>
+                                <p>Cantidad: {prod.cantidad}</p>
+                            </div>
+                            <div>
+                                <img src={prod.imageUrl} alt={prod.name} />
+                            </div>
+
                         </div>
+
                     ))
                 }
-                <h4>Total de la compra ${totalCart()}</h4>
+            </div>
+            <div className="toCheckout">
+                <button className="fifth" onClick={emptyCart}>🤯 Vaciar carrito 🤯</button>
+                <div>
+                    <h4>Total de la compra ${totalCart()}</h4>
+                    <Link className="check" to="/checkout">😻 Generar orden de pago 💸</Link>
+                </div>
+                <button className="fifth" onClick={() => navegar(-1)}>⬅️ Volver</button>
             </div>
 
-
-            <button className="btn btn-danger" onClick={emptyCart}>Vaciar carrito</button>
-            <Link className="btn btn-success mx-2" to="/checkout">Generar orden de pago</Link>
 
         </div>
     )

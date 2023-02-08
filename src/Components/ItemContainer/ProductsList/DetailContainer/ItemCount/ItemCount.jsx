@@ -12,27 +12,29 @@ const ItemCount = ({ max, setCantidad, cantidad, onAdd }) => {
         cantidad < max && setCantidad(cantidad + 1)
     }
 
+
     return (
         <div className="itemCount">
             <div className="cantidad">
+                <button
+                    disabled={cantidad === max}
+                    className={cantidad === max ? 'c2' : 'c1'}
+                    onClick={handleSumar}
+                >+</button>
+
+                <span>{cantidad}</span>
+
                 <button
                     disabled={cantidad === 1}
                     className={`${cantidad > 1 ? 'c1' : 'c2'}`}
                     onClick={handleRestar}
                 >-</button>
+                <br />
 
-                <span className='mx-3'>{cantidad}</span>
-
-                <button
-                    disabled={cantidad === max}
-                    className={cantidad === max ? 'c2' : 'c1'}
-                    onClick={handleSumar}
-                >+</button> <br />
-
-                <button className='fifth btnSesion' onClick={onAdd}>Agregar al carrito</button>
+                <button className='fifth btnSesion' onClick={onAdd}>Agregar al carrito 🛒</button>
 
             </div>
-            
+
 
 
         </div>

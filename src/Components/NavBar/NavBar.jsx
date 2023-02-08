@@ -2,23 +2,23 @@ import { Link } from 'react-router-dom'
 import logo from '../../Assets/logo.png'
 import './NavBar.scss'
 import { BiUserCircle } from 'react-icons/bi'
-import {MdShoppingCart} from 'react-icons/md'
-import {MdExitToApp} from 'react-icons/md'
+import { MdExitToApp } from 'react-icons/md'
 import 'animate.css'
 import { useUserContext } from '../../Contexts/userContext'
+import CartWidget from '../Cart/CartWidget/CartWidget'
 
 
 const NavBar = () => {
 
-    const {user, logout} = useUserContext()
+    const { user, logout } = useUserContext()
 
     return (
         <div>
             <div className='infoNav'>
-                {user.logged === false && <Link to={'/login'}><BiUserCircle className='icons'/></Link>}
-                {user.logged === true && <Link onClick={logout} to={'/clear'}><MdExitToApp className='icons'/></Link>}
+                {user.logged === false && <Link to={'/login'}><BiUserCircle className='icons' /></Link>}
+                {user.logged === true && <Link onClick={logout} to={'/checkout/out'}><MdExitToApp className='icons' /></Link>}
                 <Link to={'/'}><img src={logo} alt="Logotipo" className='logo' /></Link>
-                <Link to={'/cart'}><MdShoppingCart className='icons'/></Link>
+                <CartWidget />
             </div>
             <nav className='navContainer'>
                 <Link to={'/products/guitar'} className='navLinks'>Guitarras/Bajos</Link>

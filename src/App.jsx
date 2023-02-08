@@ -9,7 +9,7 @@ import { UserProvider } from './Contexts/userContext'
 import Register from './Components/SesionAccess/Register/Register'
 import { CartProvider } from './Contexts/CartContext'
 import Cart from './Components/Cart/Cart'
-import ClearCart from './Components/NavBar/ClearCart/ClearCart'
+import Checkout from './Components/Checkout/Checkout'
 
 
 function App() {
@@ -31,7 +31,8 @@ function App() {
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
             <Route path='/cart' element={<Cart />} />
-            <Route path='/clear' element={<ClearCart/>}/>
+            <Route path='/checkout' element={<Checkout/>} />
+            <Route path='/checkout/:out' element={<Checkout/>} />
             <Route path="*" element={<ItemContainer />} />
           </Routes>
 

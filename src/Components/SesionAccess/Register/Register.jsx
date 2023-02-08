@@ -4,6 +4,7 @@ import { Link, Navigate } from 'react-router-dom';
 import { useUserContext } from '../../../Contexts/userContext'
 import Loading from '../../Loading/Loading'
 import '../Session.scss'
+import Swal from 'sweetalert2';
 
 const schema = Yup.object().shape({
     email: Yup.string().email('El email no es válido').required('Sin email bueno no se puede ☹️'),
@@ -20,6 +21,14 @@ const Register = () => {
 
     const regist = (values) => {
         register(values)
+        setTimeout(() => {
+            Swal.fire({
+                icon: 'success',
+                title: 'Registro exitoso',
+                timer: '2000',
+                showConfirmButton: false
+            })
+        }, 0)
     }
 
     return (
